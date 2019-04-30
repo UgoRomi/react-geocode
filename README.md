@@ -7,13 +7,7 @@ This module uses [Google Maps Geocoding API](https://developers.google.com/maps/
 ### Install
 
 ```shell
-npm install --save react-geocode
-```
-
-or
-
-```shell
-yarn add react-geocode
+npm i react-geocode-multi-language
 ```
 
 ### Example
@@ -58,7 +52,7 @@ Geocode.fromAddress('Eiffel Tower').then(
 | Method      | Arguments                  |   Params   |    Type    | Description                                                                                                                                                      |
 | :---------- | :------------------------- | :--------: | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | setApiKey   | `api_key`                  |     -      | `function` | set [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro) for purposes of quota management. Its optional but recommended |
-| setLanguage | `language code`            |     -      | `function` | Specify language of the parsed address. [List of the available language codes](https://developers.google.com/maps/faq#languagesupport). Defaults to english                                              |
+| setLanguage | `language code`            |     -      | `function` | Specify language of the parsed address. [List of the available language codes](https://developers.google.com/maps/faq#languagesupport). Defaults to english      |
 | enableDebug | `true` or `false`          |     -      | `function` | Enable or disable logs. Its optional.                                                                                                                            |
 | fromLatLng  | `latitude` and `longitude` | `response` | `function` | Get address from latidude & longitude.                                                                                                                           |
 | fromAddress | `address`                  | `response` | `function` | Get latidude & longitude from address.                                                                                                                           |
