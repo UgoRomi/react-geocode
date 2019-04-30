@@ -1,4 +1,6 @@
-# react-geocode
+# react-geocode-multilanguage
+
+This is a fork of the original [react-geocode](https://github.com/shukerullah/react-geocode) made by [shukerullah](https://github.com/shukerullah) with support for multiple languages
 
 A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.
 
@@ -56,7 +58,3 @@ Geocode.fromAddress('Eiffel Tower').then(
 | enableDebug | `true` or `false`          |     -      | `function` | Enable or disable logs. Its optional.                                                                                                                            |
 | fromLatLng  | `latitude` and `longitude` | `response` | `function` | Get address from latidude & longitude.                                                                                                                           |
 | fromAddress | `address`                  | `response` | `function` | Get latidude & longitude from address.                                                                                                                           |
-
-### Follow me on Twitter: [@shukerullah](https://twitter.com/shukerullah)
-
-<a href="https://www.buymeacoffee.com/shukerullah" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
