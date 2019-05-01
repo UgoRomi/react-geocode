@@ -58,3 +58,5 @@ Geocode.fromAddress('Eiffel Tower').then(
 | enableDebug | `true` or `false`          |     -      | `function` | Enable or disable logs. Its optional.                                                                                                                            |
 | fromLatLng  | `latitude` and `longitude` | `response` | `function` | Get address from latidude & longitude.                                                                                                                           |
 | fromAddress | `address`                  | `response` | `function` | Get latidude & longitude from address.                                                                                                                           |
+
+<a href="https://www.buymeacoffee.com/ugoromi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
