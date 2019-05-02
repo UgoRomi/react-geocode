@@ -1,8 +1,8 @@
 {
   "name": "react-geocode-multi-language",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Fork of the project \"react-geocode\" made by \"Pir Shukarulalh Shah\"  A React module to transform a description of a location (i.e. street address, town name, etc.) into geographic coordinates (i.e. latitude and longitude) and vice versa.",
-  "main": "./lib/index.js",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UgoRomi/react-geocode-multi-language.git"
